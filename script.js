@@ -85,6 +85,12 @@ Task:
 //    (Hint: getDate(), getMonth(), getFullYear() )
 */
 
+const d = new Date();
+console.log("Day:", d.getDate());
+console.log("Month (0–11):", d.getMonth());
+console.log("Year:", d.getFullYear());
+
+
 // ============================================================
 // TODO-5: ARRAY + SPREAD — find MIN and MAX from 10 numbers
 // ============================================================
