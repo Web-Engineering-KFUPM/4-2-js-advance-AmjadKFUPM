@@ -101,6 +101,12 @@ Task:
 3) Display both values.
 */
 
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const min = Math.min(...nums);
+const max = Math.max(...nums);
+console.log("Min:", min);
+console.log("Max:", max);
+
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
 // ===================================================================
