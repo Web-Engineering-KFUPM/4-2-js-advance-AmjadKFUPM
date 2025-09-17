@@ -118,6 +118,25 @@ Task:
    in each block so you can see the flow of control.
 */
 
+function maxOfArray(arr) {
+
+   if (!Array.isArray(arr) || arr.length === 0) {
+      throw new Error("Array must be non-empty.");
+   }
+
+   return Math.max(...arr);
+}
+
+console.log("try/catch/finally:");
+try {
+   const result = maxOfArray([]);
+   console.log("try block:", result);
+} catch (e) {
+   console.log("catch block:", e);
+} finally {
+   console.log("finally block.");
+}
+
 // ===================================================================================
 // TODO-7: REGEX + forEach — find words containing 'ab' and log matches from the list
 // ===================================================================================
